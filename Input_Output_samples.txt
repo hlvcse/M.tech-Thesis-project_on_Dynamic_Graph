@@ -1,0 +1,64 @@
+Sample input 1.
+5 7
+0 1 0.25
+0 2 0.25
+0 3 0.25
+1 3 0.25
+1 4 0.25
+2 3 0.25
+3 4 0.25
+
+Output:
+size of fractional matching in original graph 'G', size(w)= 1.75
+sparsifified graph G' = {0:{3,0.5,1,0.5,},1:{0,0.5,3,0.5,},2:{3,0.5,},3:{0,0.5,1,0.5,2,0.5,},4:{},}
+size of fractional matching in sparsified graph G', size(w')= 2
+
+Sample input 2:
+5 7
+0 1 0.25
+0 2 0.25
+0 3 0.25
+1 2 0.25
+1 3 0.25
+2 3 0.25
+3 4 0.25
+
+Output:
+size of fractional matching in original graph 'G', size(w)= 1.75
+sparsifified graph G' = {0:{3,0.5,1,0.5,},1:{0,0.5,3,0.5,},2:{3,0.5,},3:{0,0.5,1,0.5,2,0.5,},4:{},}
+size of fractional matching in sparsified graph G', size(w')= 2
+
+Sample Input3.
+5 7
+0 1 0.25
+0 2 0.25
+0 3 0.25
+0 4 0.25
+1 2 0.25
+2 3 0.25
+3 4 0.25
+
+Output:
+size of fractional matching in original graph 'G', size(w)= 1.75
+sparsifified graph G' = {0:{2,0.5,3,0.5,},1:{2,0.5,},2:{0,0.5,1,0.5,},3:{0,0.5,4,0.5,},4:{3,0.5,},}
+size of fractional matching in sparsified graph G', size(w')= 2
+
+Sample input 4.
+9 11
+0 1 0.25
+0 3 0.25
+1 2 0.25
+1 4 0.25
+2 5 0.25
+3 4 0.25
+3 6 0.25
+4 5 0.25
+4 7 0.25
+5 8 0.25
+6 7 0.25
+
+Output:
+size of fractional matching in original graph 'G', size(w)= 2.75
+sparsifified graph G' = {0:{1,0.5,},1:{0,0.5,4,0.5,2,0.5,},2:{1,0.5,},3:{4,0.5,6,0.5,},4:{1,0.5,3,0.5,},5:{8,0.5,},6:{3,0.5,},7:{},8:{5,0.5,},}
+size of fractional matching in sparsified graph G', size(w')= 3
+
