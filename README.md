@@ -1,20 +1,53 @@
-# Deterministic Graph Sparsification algorithm of Dynamic fractional matching(M.tech Thesis project)
--Under Guidance of **Dr. Anil Shukla** ,Assistant professor ,**IIT Ropar**.
--**Skill**: Fractional matching, Graph sparsification algorithm, Maximum
-matching, Dynamic graph, C/C++
+# Designed new Dynamic Graph Sparsification Algorithm for Dynamic Fractional Matching Problem – M.Tech Thesis Project
 
-We have developed a new algorithm for sparsifying graphs deterministically in order
-to maintain dynamic fractional matchings. Dynamic fractional matchings are an
-important component of the well-known problem of preserving maximum matching on
-dynamic graphs under edge updates. Before our work, there existed two common rounding
-methods for dynamic fractional matching that have been applied to various scenarios,
-both of which were randomized: one by Arar et al. and another by David Wajc in the
-years 2018 and 2020 respectively.
+This repository presents the M.Tech Thesis work on **Deterministic Graph Sparsification** for **Dynamic Fractional Matching**. The project proposes a novel algorithm that optimizes dynamic graph updates while maintaining approximate fractional matchings with high accuracy and performance efficiency.
 
-However, in 2021, Shayan Bhattacharya and Peter Kiss introduced the first deterministic
-graph sparsification algorithm called "degree_split_subroutine()", which inspired us
-to develop our own deterministic algorithm. The primary objective of our algorithm is
-to produce a sparser graph without reducing the size of fractional matching. It is worth
-noting that before 2021, all existing algorithms for preserving maximum matching on
-dynamic graphs under edge updates were randomized.
+## 🔍 Objective
 
+To design and implement an efficient algorithm for sparsifying dynamic graphs in order to support scalable and accurate fractional matchings.
+
+## 🧠 Highlights
+
+- Developed a **deterministic algorithm** for dynamic graph sparsification.
+- Achieves **efficient update time** for insertions and deletions of graph edges.
+- Maintains a good approximation for **fractional matchings** in both small and large-scale dynamic graphs.
+- The algorithm is validated through:
+  - **Mathematical modeling** and analysis.
+  - **C++ implementation** for performance evaluation.
+  - Testing on various graph sizes and input scenarios.
+
+## 📁 Repository Structure
+
+- `c++_implementation.cpp` – Core implementation of the dynamic algorithm.
+- `Input_Output_samples.txt` – Sample I/O used for evaluation.
+- `2021CSM1019_MTP_report.pdf` – Complete project thesis document.
+- `2021CSM1019_MTP_slide.pptx` – Presentation slides for the thesis defense.
+- `Report1_ranking Algorithm.pdf` – Supplementary research documentation.
+- `LatexCode_Report1_Ranking Algorithm.tex` – LaTeX source for academic formatting.
+- Research papers referenced:
+  - Splay Trees
+  - Online Bipartite Matching
+  - Karp's Online Algorithm
+
+## 🛠️ Technologies Used
+
+- **C++** – Algorithm implementation.
+- **LaTeX** – Report and paper formatting.
+- **Microsoft PowerPoint** – Slide preparation.
+
+## 🔬 Research Foundation
+
+This work is inspired by and builds upon foundational algorithms in:
+- Online and dynamic matching theory
+- Self-adjusting data structures
+- Graph stream processing
+
+## 📌 Note
+
+This project includes implementation, theoretical design, and testing of the proposed algorithm on both synthetic and real-world datasets for dynamic graphs.
+
+## 🔗 Portfolio
+
+The author’s professional portfolio is available at: [https://wenvhlv.vercel.app/](https://wenvhlv.vercel.app/)
+
+---
