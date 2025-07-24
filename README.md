@@ -1,6 +1,6 @@
 # Deterministic Graph Sparsification algorithm of Dynamic fractional matching(M.tech Thesis project)
--Under Dr. Anil Shukla ,Assistant professor ,IIT Ropar.
--Skill: Fractional matching, Graph sparsification algorithm, Maximum
+-Under Guidance of **Dr. Anil Shukla** ,Assistant professor ,**IIT Ropar**.
+-**Skill**: Fractional matching, Graph sparsification algorithm, Maximum
 matching, Dynamic graph, C/C++
 
 We have developed a new algorithm for sparsifying graphs deterministically in order
